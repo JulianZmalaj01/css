@@ -5,3 +5,7 @@ body{
 .user_card{
     background: red !important;
 }
+
+body.dark .dark_img{
+    filter: invert(1) !important;
+}
