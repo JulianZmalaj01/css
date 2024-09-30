@@ -9,3 +9,7 @@ body{
 body.dark .dark_img{
     filter: invert(1) !important;
 }
+
+:root{
+    --newheader-color2: red !important;
+}
