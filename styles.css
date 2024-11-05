@@ -1,15 +1,27 @@
-body{
-     background: gray;
-}
-
-.user_card{
-    background: red !important;
-}
-
-body.dark .dark_img{
-    filter: invert(1) !important;
-}
-
-:root{
-    --newheader-color2: red !important;
-}
+:root {
+    --accent: #f39e18 !important;
+    --accent1: #f39e18 !important;
+    --accent-bg: #f39e18 !important;
+    --accent-odd: #f39e18 !important;
+    --accent-bg-border-1: #ffaa25 !important;
+    --accent-bg-border-2: #d4870d !important;
+    --loader: linear-gradient(
+      to right,
+      #414141 2%,
+      #2f2f2f 18%,
+      #313131 33%
+    ) !important;
+    --dark-s: 0% !important;
+    --dark-l: 10% !important;
+  }
+  
+  .odd.active {
+    background: var(--accent-bg) !important;
+  }
+  
+  .prematch .odd.active > .value,
+  .prematch .odd.active > .type,
+  body.livePage .odd.active > div {
+    color: var(--accent-col) !important;
+  }
+  
